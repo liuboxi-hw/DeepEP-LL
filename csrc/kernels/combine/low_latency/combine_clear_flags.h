@@ -1,7 +1,7 @@
 #pragma once
 #include "kernel_operator.h"
 #include "ep_memory_server_dedup_buffer_layout.h"
-#include "../../dispatch/low_latency/common/ep_memory_server_dedup_layout.h"
+#include "../../dispatch/low_latency/common/ep_memory_server_dedup_count_layout.h"
 
 namespace CombineDedup {
 constexpr uint32_t kClearFlagBlocks = 256U;

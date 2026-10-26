@@ -12,6 +12,8 @@ LL生产轮询不使用GetSystemCycle，锁定SHMEM SDK保持原实现。
 
 两机各一条命令的构建/测试/本机解析入口见 [ONE_CLICK.md](ONE_CLICK.md)：
 `bash tests/ll_rdma/one_click.sh NODE_RANK MASTER_IP RUN_NAME`，默认ON诊断，`--mode perf`为OFF性能。
+面向新环境的编译、单机EP16/双机EP32 dispatch性能及阶段CSV操作步骤见
+[DISPATCH_PERFORMANCE_GUIDE.md](DISPATCH_PERFORMANCE_GUIDE.md)。
 
 2026-10-25：SHMEM更新到官方master固定提交8e3fc610，必须重建匹配SDK和wheel，
 具体兼容与部署见 [SHMEM_MASTER_UPDATE.md](SHMEM_MASTER_UPDATE.md)。
